@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "+MNe4fqsfnVVSrEwZLEw1kAfTGitgD0pvN4N3N7V4mg=",
-  "Source": "dk-api",
-  "BasePath": "_content/dk-api",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"76zM3GehqoSs2HrTrhRE7RAOK2H0g37Vl6rtryUtteo=","Source":"dk-api","BasePath":"_content/dk-api","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

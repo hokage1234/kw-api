@@ -22,5 +22,17 @@ namespace dkApi.Services
 
             return investment;
         }
+
+        public Abcd CalculateAbcd(int cochcesz)
+        {
+            // Example logic for Byleco calculation
+            var byleco = new Abcd()
+            {
+                IloœæWody = cochcesz * 10, // Example calculation
+                LiczbaRyb = cochcesz * 5 // Example calculation
+            };
+            return byleco;
+        }
+
     }
 }
