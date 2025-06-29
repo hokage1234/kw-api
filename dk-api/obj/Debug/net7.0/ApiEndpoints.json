@@ -1,5 +1,89 @@
 [
   {
+    "ContainingType": "dk_api.Controllers.CalculatorController",
+    "Method": "Add",
+    "RelativePath": "api/Calculator/add",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dk_api.Controllers.CalculatorController",
+    "Method": "Divide",
+    "RelativePath": "api/Calculator/divide",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dk_api.Controllers.CalculatorController",
+    "Method": "Multiply",
+    "RelativePath": "api/Calculator/multiply",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dk_api.Controllers.CalculatorController",
+    "Method": "Subtract",
+    "RelativePath": "api/Calculator/subtract",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "dkApi.Controllers.InvestmentController",
     "Method": "CalculateByleco",
     "RelativePath": "investment/calculate-byleco",
@@ -15,7 +99,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "dkApi.Models.Byleco",
+        "Type": "dkApi.Models.Abcd",
         "MediaTypes": [
           "text/plain",
           "application/json",

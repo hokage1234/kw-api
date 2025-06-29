@@ -5,6 +5,134 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Calculator/add": {
+      "get": {
+        "tags": [
+          "Calculator"
+        ],
+        "parameters": [
+          {
+            "name": "a",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "b",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Calculator/subtract": {
+      "get": {
+        "tags": [
+          "Calculator"
+        ],
+        "parameters": [
+          {
+            "name": "a",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "b",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Calculator/multiply": {
+      "get": {
+        "tags": [
+          "Calculator"
+        ],
+        "parameters": [
+          {
+            "name": "a",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "b",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Calculator/divide": {
+      "get": {
+        "tags": [
+          "Calculator"
+        ],
+        "parameters": [
+          {
+            "name": "a",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "b",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/investment/calculate-investment": {
       "get": {
         "tags": [
@@ -76,17 +204,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Byleco"
+                  "$ref": "#/components/schemas/Abcd"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Byleco"
+                  "$ref": "#/components/schemas/Abcd"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Byleco"
+                  "$ref": "#/components/schemas/Abcd"
                 }
               }
             }
@@ -175,7 +303,7 @@
   },
   "components": {
     "schemas": {
-      "Byleco": {
+      "Abcd": {
         "type": "object",
         "properties": {
           "ilośćWody": {

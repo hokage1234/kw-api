@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dk-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b80973dad04afe0c07b2bb5ab7d635dc39430ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d352b93494607ff3661c729d1e9625129cbeac4")]
 [assembly: System.Reflection.AssemblyProductAttribute("dk-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dk-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
